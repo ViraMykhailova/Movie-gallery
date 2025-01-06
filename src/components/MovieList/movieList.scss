@@ -1,0 +1,11 @@
+@use '../../common/colors.scss' as colors;
+
+.movies-list,
+.shows-list {
+    margin: 20px 0;
+    h3 {
+        color: colors.$font-secondary;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,26 @@
+@use './common/colors.scss' as colors;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: colors.$font-primary;
+}
+
+body {
+    background-color: colors.$primary-color;
+}
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    margin: 0 40px;
+    flex-grow: 1;
+}
